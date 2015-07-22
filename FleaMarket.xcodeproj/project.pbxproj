@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31154B771B5FE92A00912BF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154B761B5FE92A00912BF5 /* main.m */; };
+		31154B7A1B5FE92A00912BF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154B791B5FE92A00912BF5 /* AppDelegate.m */; };
+		31154B7D1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31154B7B1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld */; };
+		31154B831B5FE92A00912BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31154B811B5FE92A00912BF5 /* Main.storyboard */; };
+		31154B851B5FE92A00912BF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31154B841B5FE92A00912BF5 /* Images.xcassets */; };
+		31154B881B5FE92A00912BF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31154B861B5FE92A00912BF5 /* LaunchScreen.xib */; };
+		31154B941B5FE92A00912BF5 /* FleaMarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154B931B5FE92A00912BF5 /* FleaMarketTests.m */; };
+		31154BA01B5FEA7500912BF5 /* BuyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154B9F1B5FEA7500912BF5 /* BuyTableViewController.m */; };
+		31154BA61B5FEBB000912BF5 /* RequestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BA51B5FEBB000912BF5 /* RequestTableViewController.m */; };
+		31154BA91B5FEC2300912BF5 /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BA81B5FEC2300912BF5 /* SideBarViewController.m */; };
+		31154BAC1B5FEEF600912BF5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BAB1B5FEEF600912BF5 /* SWRevealViewController.m */; };
+		31154BAE1B5FF67B00912BF5 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 31154BAD1B5FF67B00912BF5 /* menu.png */; };
+		31154BB11B5FF71500912BF5 /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BB01B5FF71500912BF5 /* RequestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31154B8E1B5FE92A00912BF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31154B691B5FE92A00912BF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31154B701B5FE92A00912BF5;
+			remoteInfo = FleaMarket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31154B711B5FE92A00912BF5 /* FleaMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleaMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31154B751B5FE92A00912BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31154B761B5FE92A00912BF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31154B781B5FE92A00912BF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31154B791B5FE92A00912BF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31154B7C1B5FE92A00912BF5 /* FleaMarket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FleaMarket.xcdatamodel; sourceTree = "<group>"; };
+		31154B821B5FE92A00912BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31154B841B5FE92A00912BF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		31154B871B5FE92A00912BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		31154B8D1B5FE92A00912BF5 /* FleaMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleaMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31154B921B5FE92A00912BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31154B931B5FE92A00912BF5 /* FleaMarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FleaMarketTests.m; sourceTree = "<group>"; };
+		31154B9E1B5FEA7500912BF5 /* BuyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTableViewController.h; sourceTree = "<group>"; };
+		31154B9F1B5FEA7500912BF5 /* BuyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTableViewController.m; sourceTree = "<group>"; };
+		31154BA41B5FEBB000912BF5 /* RequestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTableViewController.h; sourceTree = "<group>"; };
+		31154BA51B5FEBB000912BF5 /* RequestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTableViewController.m; sourceTree = "<group>"; };
+		31154BA71B5FEC2300912BF5 /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
+		31154BA81B5FEC2300912BF5 /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
+		31154BAA1B5FEEF600912BF5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		31154BAB1B5FEEF600912BF5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		31154BAD1B5FF67B00912BF5 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		31154BAF1B5FF71500912BF5 /* RequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewController.h; sourceTree = "<group>"; };
+		31154BB01B5FF71500912BF5 /* RequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31154B6E1B5FE92A00912BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31154B8A1B5FE92A00912BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31154B681B5FE92A00912BF5 = {
+			isa = PBXGroup;
+			children = (
+				31154B731B5FE92A00912BF5 /* FleaMarket */,
+				31154B901B5FE92A00912BF5 /* FleaMarketTests */,
+				31154B721B5FE92A00912BF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31154B721B5FE92A00912BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31154B711B5FE92A00912BF5 /* FleaMarket.app */,
+				31154B8D1B5FE92A00912BF5 /* FleaMarketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31154B731B5FE92A00912BF5 /* FleaMarket */ = {
+			isa = PBXGroup;
+			children = (
+				31154B9D1B5FE97B00912BF5 /* ViewController */,
+				31154B781B5FE92A00912BF5 /* AppDelegate.h */,
+				31154B791B5FE92A00912BF5 /* AppDelegate.m */,
+				31154B811B5FE92A00912BF5 /* Main.storyboard */,
+				31154B841B5FE92A00912BF5 /* Images.xcassets */,
+				31154B861B5FE92A00912BF5 /* LaunchScreen.xib */,
+				31154B7B1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld */,
+				31154B741B5FE92A00912BF5 /* Supporting Files */,
+			);
+			path = FleaMarket;
+			sourceTree = "<group>";
+		};
+		31154B741B5FE92A00912BF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31154BAD1B5FF67B00912BF5 /* menu.png */,
+				31154B751B5FE92A00912BF5 /* Info.plist */,
+				31154B761B5FE92A00912BF5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31154B901B5FE92A00912BF5 /* FleaMarketTests */ = {
+			isa = PBXGroup;
+			children = (
+				31154B931B5FE92A00912BF5 /* FleaMarketTests.m */,
+				31154B911B5FE92A00912BF5 /* Supporting Files */,
+			);
+			path = FleaMarketTests;
+			sourceTree = "<group>";
+		};
+		31154B911B5FE92A00912BF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31154B921B5FE92A00912BF5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31154B9D1B5FE97B00912BF5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				31154BAA1B5FEEF600912BF5 /* SWRevealViewController.h */,
+				31154BAB1B5FEEF600912BF5 /* SWRevealViewController.m */,
+				31154B9E1B5FEA7500912BF5 /* BuyTableViewController.h */,
+				31154B9F1B5FEA7500912BF5 /* BuyTableViewController.m */,
+				31154BA41B5FEBB000912BF5 /* RequestTableViewController.h */,
+				31154BA51B5FEBB000912BF5 /* RequestTableViewController.m */,
+				31154BA71B5FEC2300912BF5 /* SideBarViewController.h */,
+				31154BA81B5FEC2300912BF5 /* SideBarViewController.m */,
+				31154BAF1B5FF71500912BF5 /* RequestViewController.h */,
+				31154BB01B5FF71500912BF5 /* RequestViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31154B701B5FE92A00912BF5 /* FleaMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31154B971B5FE92A00912BF5 /* Build configuration list for PBXNativeTarget "FleaMarket" */;
+			buildPhases = (
+				31154B6D1B5FE92A00912BF5 /* Sources */,
+				31154B6E1B5FE92A00912BF5 /* Frameworks */,
+				31154B6F1B5FE92A00912BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FleaMarket;
+			productName = FleaMarket;
+			productReference = 31154B711B5FE92A00912BF5 /* FleaMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31154B8C1B5FE92A00912BF5 /* FleaMarketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31154B9A1B5FE92A00912BF5 /* Build configuration list for PBXNativeTarget "FleaMarketTests" */;
+			buildPhases = (
+				31154B891B5FE92A00912BF5 /* Sources */,
+				31154B8A1B5FE92A00912BF5 /* Frameworks */,
+				31154B8B1B5FE92A00912BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31154B8F1B5FE92A00912BF5 /* PBXTargetDependency */,
+			);
+			name = FleaMarketTests;
+			productName = FleaMarketTests;
+			productReference = 31154B8D1B5FE92A00912BF5 /* FleaMarketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31154B691B5FE92A00912BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Rose-Hulman";
+				TargetAttributes = {
+					31154B701B5FE92A00912BF5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					31154B8C1B5FE92A00912BF5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 31154B701B5FE92A00912BF5;
+					};
+				};
+			};
+			buildConfigurationList = 31154B6C1B5FE92A00912BF5 /* Build configuration list for PBXProject "FleaMarket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31154B681B5FE92A00912BF5;
+			productRefGroup = 31154B721B5FE92A00912BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31154B701B5FE92A00912BF5 /* FleaMarket */,
+				31154B8C1B5FE92A00912BF5 /* FleaMarketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31154B6F1B5FE92A00912BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31154BAE1B5FF67B00912BF5 /* menu.png in Resources */,
+				31154B831B5FE92A00912BF5 /* Main.storyboard in Resources */,
+				31154B881B5FE92A00912BF5 /* LaunchScreen.xib in Resources */,
+				31154B851B5FE92A00912BF5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31154B8B1B5FE92A00912BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31154B6D1B5FE92A00912BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31154BAC1B5FEEF600912BF5 /* SWRevealViewController.m in Sources */,
+				31154B7D1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld in Sources */,
+				31154BB11B5FF71500912BF5 /* RequestViewController.m in Sources */,
+				31154BA61B5FEBB000912BF5 /* RequestTableViewController.m in Sources */,
+				31154B7A1B5FE92A00912BF5 /* AppDelegate.m in Sources */,
+				31154BA91B5FEC2300912BF5 /* SideBarViewController.m in Sources */,
+				31154BA01B5FEA7500912BF5 /* BuyTableViewController.m in Sources */,
+				31154B771B5FE92A00912BF5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31154B891B5FE92A00912BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31154B941B5FE92A00912BF5 /* FleaMarketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31154B8F1B5FE92A00912BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31154B701B5FE92A00912BF5 /* FleaMarket */;
+			targetProxy = 31154B8E1B5FE92A00912BF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31154B811B5FE92A00912BF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31154B821B5FE92A00912BF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31154B861B5FE92A00912BF5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31154B871B5FE92A00912BF5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31154B951B5FE92A00912BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31154B961B5FE92A00912BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31154B981B5FE92A00912BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FleaMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31154B991B5FE92A00912BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FleaMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31154B9B1B5FE92A00912BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FleaMarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleaMarket.app/FleaMarket";
+			};
+			name = Debug;
+		};
+		31154B9C1B5FE92A00912BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FleaMarketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FleaMarket.app/FleaMarket";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31154B6C1B5FE92A00912BF5 /* Build configuration list for PBXProject "FleaMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31154B951B5FE92A00912BF5 /* Debug */,
+				31154B961B5FE92A00912BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31154B971B5FE92A00912BF5 /* Build configuration list for PBXNativeTarget "FleaMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31154B981B5FE92A00912BF5 /* Debug */,
+				31154B991B5FE92A00912BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31154B9A1B5FE92A00912BF5 /* Build configuration list for PBXNativeTarget "FleaMarketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31154B9B1B5FE92A00912BF5 /* Debug */,
+				31154B9C1B5FE92A00912BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31154B7B1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31154B7C1B5FE92A00912BF5 /* FleaMarket.xcdatamodel */,
+			);
+			currentVersion = 31154B7C1B5FE92A00912BF5 /* FleaMarket.xcdatamodel */;
+			path = FleaMarket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31154B691B5FE92A00912BF5 /* Project object */;
+}
