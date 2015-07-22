@@ -14,12 +14,13 @@
 		31154B851B5FE92A00912BF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31154B841B5FE92A00912BF5 /* Images.xcassets */; };
 		31154B881B5FE92A00912BF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31154B861B5FE92A00912BF5 /* LaunchScreen.xib */; };
 		31154B941B5FE92A00912BF5 /* FleaMarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154B931B5FE92A00912BF5 /* FleaMarketTests.m */; };
-		31154BA01B5FEA7500912BF5 /* BuyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154B9F1B5FEA7500912BF5 /* BuyTableViewController.m */; };
-		31154BA61B5FEBB000912BF5 /* RequestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BA51B5FEBB000912BF5 /* RequestTableViewController.m */; };
 		31154BA91B5FEC2300912BF5 /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BA81B5FEC2300912BF5 /* SideBarViewController.m */; };
 		31154BAC1B5FEEF600912BF5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BAB1B5FEEF600912BF5 /* SWRevealViewController.m */; };
 		31154BAE1B5FF67B00912BF5 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 31154BAD1B5FF67B00912BF5 /* menu.png */; };
 		31154BB11B5FF71500912BF5 /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BB01B5FF71500912BF5 /* RequestViewController.m */; };
+		31154BB41B6035B900912BF5 /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BB31B6035B900912BF5 /* BuyViewController.m */; };
+		31154BB81B60382200912BF5 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BB71B60382200912BF5 /* Item.m */; };
+		31154BBB1B603A8E00912BF5 /* CoreDataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BBA1B603A8E00912BF5 /* CoreDataUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +46,6 @@
 		31154B8D1B5FE92A00912BF5 /* FleaMarketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleaMarketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31154B921B5FE92A00912BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31154B931B5FE92A00912BF5 /* FleaMarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FleaMarketTests.m; sourceTree = "<group>"; };
-		31154B9E1B5FEA7500912BF5 /* BuyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyTableViewController.h; sourceTree = "<group>"; };
-		31154B9F1B5FEA7500912BF5 /* BuyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyTableViewController.m; sourceTree = "<group>"; };
-		31154BA41B5FEBB000912BF5 /* RequestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestTableViewController.h; sourceTree = "<group>"; };
-		31154BA51B5FEBB000912BF5 /* RequestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestTableViewController.m; sourceTree = "<group>"; };
 		31154BA71B5FEC2300912BF5 /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
 		31154BA81B5FEC2300912BF5 /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
 		31154BAA1B5FEEF600912BF5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -56,6 +53,12 @@
 		31154BAD1B5FF67B00912BF5 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		31154BAF1B5FF71500912BF5 /* RequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewController.h; sourceTree = "<group>"; };
 		31154BB01B5FF71500912BF5 /* RequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewController.m; sourceTree = "<group>"; };
+		31154BB21B6035B900912BF5 /* BuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
+		31154BB31B6035B900912BF5 /* BuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyViewController.m; sourceTree = "<group>"; };
+		31154BB61B60382200912BF5 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		31154BB71B60382200912BF5 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		31154BB91B603A8E00912BF5 /* CoreDataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataUtils.h; sourceTree = "<group>"; };
+		31154BBA1B603A8E00912BF5 /* CoreDataUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		31154B731B5FE92A00912BF5 /* FleaMarket */ = {
 			isa = PBXGroup;
 			children = (
+				31154BB51B6037FC00912BF5 /* Core Data NSManagedObjects */,
 				31154B9D1B5FE97B00912BF5 /* ViewController */,
 				31154B781B5FE92A00912BF5 /* AppDelegate.h */,
 				31154B791B5FE92A00912BF5 /* AppDelegate.m */,
@@ -141,16 +145,25 @@
 			children = (
 				31154BAA1B5FEEF600912BF5 /* SWRevealViewController.h */,
 				31154BAB1B5FEEF600912BF5 /* SWRevealViewController.m */,
-				31154B9E1B5FEA7500912BF5 /* BuyTableViewController.h */,
-				31154B9F1B5FEA7500912BF5 /* BuyTableViewController.m */,
-				31154BA41B5FEBB000912BF5 /* RequestTableViewController.h */,
-				31154BA51B5FEBB000912BF5 /* RequestTableViewController.m */,
 				31154BA71B5FEC2300912BF5 /* SideBarViewController.h */,
 				31154BA81B5FEC2300912BF5 /* SideBarViewController.m */,
 				31154BAF1B5FF71500912BF5 /* RequestViewController.h */,
 				31154BB01B5FF71500912BF5 /* RequestViewController.m */,
+				31154BB21B6035B900912BF5 /* BuyViewController.h */,
+				31154BB31B6035B900912BF5 /* BuyViewController.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		31154BB51B6037FC00912BF5 /* Core Data NSManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				31154BB91B603A8E00912BF5 /* CoreDataUtils.h */,
+				31154BBA1B603A8E00912BF5 /* CoreDataUtils.m */,
+				31154BB61B60382200912BF5 /* Item.h */,
+				31154BB71B60382200912BF5 /* Item.m */,
+			);
+			name = "Core Data NSManagedObjects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,13 +267,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31154BB81B60382200912BF5 /* Item.m in Sources */,
+				31154BBB1B603A8E00912BF5 /* CoreDataUtils.m in Sources */,
 				31154BAC1B5FEEF600912BF5 /* SWRevealViewController.m in Sources */,
 				31154B7D1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld in Sources */,
 				31154BB11B5FF71500912BF5 /* RequestViewController.m in Sources */,
-				31154BA61B5FEBB000912BF5 /* RequestTableViewController.m in Sources */,
 				31154B7A1B5FE92A00912BF5 /* AppDelegate.m in Sources */,
 				31154BA91B5FEC2300912BF5 /* SideBarViewController.m in Sources */,
-				31154BA01B5FEA7500912BF5 /* BuyTableViewController.m in Sources */,
+				31154BB41B6035B900912BF5 /* BuyViewController.m in Sources */,
 				31154B771B5FE92A00912BF5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

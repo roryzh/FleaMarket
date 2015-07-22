@@ -1,5 +1,5 @@
 //
-//  BuyTableViewController.h
+//  BuyViewController.h
 //  FleaMarket
 //
 //  Created by RoryZhuang on 7/22/15.
@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 
-@interface BuyTableViewController : UITableViewController
+@interface BuyViewController : UITableViewController
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+
+@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+
+
 
 @end

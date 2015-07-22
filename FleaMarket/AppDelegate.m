@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "BuyViewController.h"
+#import "RequestViewController.h"
 
 @interface AppDelegate ()
 
