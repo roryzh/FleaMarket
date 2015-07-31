@@ -21,6 +21,9 @@
 		31154BB41B6035B900912BF5 /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BB31B6035B900912BF5 /* BuyViewController.m */; };
 		31154BB81B60382200912BF5 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BB71B60382200912BF5 /* Item.m */; };
 		31154BBB1B603A8E00912BF5 /* CoreDataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BBA1B603A8E00912BF5 /* CoreDataUtils.m */; };
+		31F4EBCA1B6AB34300DB42C7 /* BuyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F4EBC91B6AB34300DB42C7 /* BuyDetailViewController.m */; };
+		31F4EBCD1B6AC5C000DB42C7 /* CreateItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F4EBCC1B6AC5C000DB42C7 /* CreateItemViewController.m */; };
+		31F4EBD21B6AF18800DB42C7 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F4EBD11B6AF18800DB42C7 /* ItemCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,12 @@
 		31154BB71B60382200912BF5 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		31154BB91B603A8E00912BF5 /* CoreDataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataUtils.h; sourceTree = "<group>"; };
 		31154BBA1B603A8E00912BF5 /* CoreDataUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataUtils.m; sourceTree = "<group>"; };
+		31F4EBC81B6AB34300DB42C7 /* BuyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyDetailViewController.h; sourceTree = "<group>"; };
+		31F4EBC91B6AB34300DB42C7 /* BuyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyDetailViewController.m; sourceTree = "<group>"; };
+		31F4EBCB1B6AC5C000DB42C7 /* CreateItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateItemViewController.h; sourceTree = "<group>"; };
+		31F4EBCC1B6AC5C000DB42C7 /* CreateItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateItemViewController.m; sourceTree = "<group>"; };
+		31F4EBD01B6AF18800DB42C7 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		31F4EBD11B6AF18800DB42C7 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,7 @@
 		31154B731B5FE92A00912BF5 /* FleaMarket */ = {
 			isa = PBXGroup;
 			children = (
+				31F4EBCF1B6AF14F00DB42C7 /* Custom Views */,
 				31154BB51B6037FC00912BF5 /* Core Data NSManagedObjects */,
 				31154B9D1B5FE97B00912BF5 /* ViewController */,
 				31154B781B5FE92A00912BF5 /* AppDelegate.h */,
@@ -151,6 +161,10 @@
 				31154BB01B5FF71500912BF5 /* RequestViewController.m */,
 				31154BB21B6035B900912BF5 /* BuyViewController.h */,
 				31154BB31B6035B900912BF5 /* BuyViewController.m */,
+				31F4EBC81B6AB34300DB42C7 /* BuyDetailViewController.h */,
+				31F4EBC91B6AB34300DB42C7 /* BuyDetailViewController.m */,
+				31F4EBCB1B6AC5C000DB42C7 /* CreateItemViewController.h */,
+				31F4EBCC1B6AC5C000DB42C7 /* CreateItemViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -164,6 +178,15 @@
 				31154BB71B60382200912BF5 /* Item.m */,
 			);
 			name = "Core Data NSManagedObjects";
+			sourceTree = "<group>";
+		};
+		31F4EBCF1B6AF14F00DB42C7 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				31F4EBD01B6AF18800DB42C7 /* ItemCell.h */,
+				31F4EBD11B6AF18800DB42C7 /* ItemCell.m */,
+			);
+			name = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,14 +290,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F4EBD21B6AF18800DB42C7 /* ItemCell.m in Sources */,
 				31154BB81B60382200912BF5 /* Item.m in Sources */,
 				31154BBB1B603A8E00912BF5 /* CoreDataUtils.m in Sources */,
 				31154BAC1B5FEEF600912BF5 /* SWRevealViewController.m in Sources */,
 				31154B7D1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld in Sources */,
 				31154BB11B5FF71500912BF5 /* RequestViewController.m in Sources */,
 				31154B7A1B5FE92A00912BF5 /* AppDelegate.m in Sources */,
+				31F4EBCA1B6AB34300DB42C7 /* BuyDetailViewController.m in Sources */,
 				31154BA91B5FEC2300912BF5 /* SideBarViewController.m in Sources */,
 				31154BB41B6035B900912BF5 /* BuyViewController.m in Sources */,
+				31F4EBCD1B6AC5C000DB42C7 /* CreateItemViewController.m in Sources */,
 				31154B771B5FE92A00912BF5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +496,7 @@
 				31154B991B5FE92A00912BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31154B9A1B5FE92A00912BF5 /* Build configuration list for PBXNativeTarget "FleaMarketTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +505,7 @@
 				31154B9C1B5FE92A00912BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

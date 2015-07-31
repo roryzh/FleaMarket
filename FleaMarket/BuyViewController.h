@@ -9,10 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@interface BuyViewController : UITableViewController
+@interface BuyViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+- (IBAction)pressedAddItem:(id)sender;
 
 
 

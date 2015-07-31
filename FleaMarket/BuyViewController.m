@@ -10,7 +10,8 @@
 #import "SWRevealViewController.h"
 #import "Item.h"
 #import "CoreDataUtils.h"
-
+#import "ItemCell.h"
+#define kCreateItemSegue @"CreateItemSegue"
 
 @interface BuyViewController ()
 
@@ -18,6 +19,21 @@
 
 @implementation BuyViewController
 
+
+
+//- (void) viewDidAppear:(BOOL) animated {
+//    
+//    Item* item1 = [NSEntityDescription insertNewObjectForEntityForName:@"Item" inManagedObjectContext:[CoreDataUtils managedObjectContext]];
+//    item1.title = @"iphone6 for $1";
+//    item1.user = @"zhuangr";
+//    
+//    Item* item2 = [NSEntityDescription insertNewObjectForEntityForName:@"Item" inManagedObjectContext:[CoreDataUtils managedObjectContext]];
+//    item2.title = @"Audi A7 for $100";
+//    item2.user = @"Hulmanrose";
+//    
+//    [CoreDataUtils saveContext];
+//    
+//}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -45,22 +61,30 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 1;
+    //return 1;
+    return [[self.fetchedResultsController sections] count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 1;
+   // return 1;
+    id<NSFetchedResultsSectionInfo> sectionInfo = [self.fetchedResultsController sections][section];
+    return [sectionInfo numberOfObjects];
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ItemCell" forIndexPath:indexPath];
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ItemCell" forIndexPath:indexPath];
+//    [self _configureCell:cell atIndexPath : indexPath];
 
     // Configure the cell...
+    ItemCell *itemCell = [tableView dequeueReusableCellWithIdentifier:@"ItemCell" forIndexPath:indexPath];
+    Item* itemForRow = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    //[itemCell _configureCellForItem:cell atIndexPath : indexPath.row];
+    [itemCell _configureCellForItem:itemForRow];
 
-    return cell;
+    return itemCell;
 }
 
 
@@ -108,6 +132,13 @@
  }
  */
 
+//- (void) _configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
+//    Item* itemForRow = [self.fetchedResultsController objectAtIndexPath:indexPath];
+//    cell.textLabel.text = itemForRow.title;
+////    cell.detailTextLabel.text = [NSString stringWithFormat:@"%d", (int)itemForRow.count];
+//////    cell.accessoryType = (self.showRenameButtons ? UITableViewCellAccessoryDetailDisclosureButton : UITableViewCellAccessoryDisclosureIndicator);
+//    
+//}
 
 #pragma mark - Fetched results controller
 
@@ -127,7 +158,7 @@
     [fetchRequest setFetchBatchSize:20];
     
     // Edit the sort key as appropriate.
-    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"title" ascending:YES];
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"title" ascending:NO];
     NSArray *sortDescriptors = @[sortDescriptor];
     
     [fetchRequest setSortDescriptors:sortDescriptors];
@@ -148,5 +179,11 @@
     
     return _fetchedResultsController;
 }
+
+- (IBAction)pressedAddItem:(id)sender {
+    [self performSegueWithIdentifier:kCreateItemSegue sender:nil];
+}
+
+
 
 @end
