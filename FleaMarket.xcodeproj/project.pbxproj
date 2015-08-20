@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310386DF1B852FF200289DDA /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310386DE1B852FF200289DDA /* SearchViewController.m */; };
 		31154B771B5FE92A00912BF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154B761B5FE92A00912BF5 /* main.m */; };
 		31154B7A1B5FE92A00912BF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154B791B5FE92A00912BF5 /* AppDelegate.m */; };
-		31154B7D1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31154B7B1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld */; };
 		31154B831B5FE92A00912BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31154B811B5FE92A00912BF5 /* Main.storyboard */; };
 		31154B851B5FE92A00912BF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31154B841B5FE92A00912BF5 /* Images.xcassets */; };
 		31154B881B5FE92A00912BF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31154B861B5FE92A00912BF5 /* LaunchScreen.xib */; };
@@ -17,13 +17,23 @@
 		31154BA91B5FEC2300912BF5 /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BA81B5FEC2300912BF5 /* SideBarViewController.m */; };
 		31154BAC1B5FEEF600912BF5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BAB1B5FEEF600912BF5 /* SWRevealViewController.m */; };
 		31154BAE1B5FF67B00912BF5 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 31154BAD1B5FF67B00912BF5 /* menu.png */; };
-		31154BB11B5FF71500912BF5 /* RequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BB01B5FF71500912BF5 /* RequestViewController.m */; };
+		31154BB11B5FF71500912BF5 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BB01B5FF71500912BF5 /* BookViewController.m */; };
 		31154BB41B6035B900912BF5 /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BB31B6035B900912BF5 /* BuyViewController.m */; };
-		31154BB81B60382200912BF5 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BB71B60382200912BF5 /* Item.m */; };
-		31154BBB1B603A8E00912BF5 /* CoreDataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31154BBA1B603A8E00912BF5 /* CoreDataUtils.m */; };
+		31335DEA1B83D6A600721EE0 /* ApplianceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31335DE91B83D6A600721EE0 /* ApplianceViewController.m */; };
+		31335DED1B83D6BD00721EE0 /* ElectronicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31335DEC1B83D6BD00721EE0 /* ElectronicViewController.m */; };
+		31335DF01B83D6CE00721EE0 /* RideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31335DEF1B83D6CE00721EE0 /* RideViewController.m */; };
+		31335DF31B83D6E000721EE0 /* VehicleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31335DF21B83D6E000721EE0 /* VehicleViewController.m */; };
+		31335DF61B83D6F700721EE0 /* OthersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31335DF51B83D6F700721EE0 /* OthersViewController.m */; };
+		318AAFD61B842487004F9C77 /* ResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 318AAFD51B842487004F9C77 /* ResetViewController.m */; };
+		31C78C9A1B7C0D7300495B15 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C78C991B7C0D7300495B15 /* Item.swift */; };
+		31E5114C1B81062200BEA258 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E5114B1B81062200BEA258 /* UIKit.framework */; };
+		31E511561B81066E00BEA258 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 31E511551B81066E00BEA258 /* GooglePlus.bundle */; };
+		31E5115B1B810EE200BEA258 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E5115A1B810EE200BEA258 /* LoginViewController.m */; };
+		31E5115E1B82D57200BEA258 /* ManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E5115D1B82D57100BEA258 /* ManageViewController.m */; };
 		31F4EBCA1B6AB34300DB42C7 /* BuyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F4EBC91B6AB34300DB42C7 /* BuyDetailViewController.m */; };
 		31F4EBCD1B6AC5C000DB42C7 /* CreateItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F4EBCC1B6AC5C000DB42C7 /* CreateItemViewController.m */; };
 		31F4EBD21B6AF18800DB42C7 /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F4EBD11B6AF18800DB42C7 /* ItemCell.m */; };
+		A5043B7B1031312207D98115 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E09CDB8852937D9CA5B10A1E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		310386DD1B852FF200289DDA /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		310386DE1B852FF200289DDA /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		31154B711B5FE92A00912BF5 /* FleaMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleaMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31154B751B5FE92A00912BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31154B761B5FE92A00912BF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31154B781B5FE92A00912BF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		31154B791B5FE92A00912BF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		31154B7C1B5FE92A00912BF5 /* FleaMarket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FleaMarket.xcdatamodel; sourceTree = "<group>"; };
 		31154B821B5FE92A00912BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31154B841B5FE92A00912BF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		31154B871B5FE92A00912BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -54,20 +65,49 @@
 		31154BAA1B5FEEF600912BF5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		31154BAB1B5FEEF600912BF5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		31154BAD1B5FF67B00912BF5 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
-		31154BAF1B5FF71500912BF5 /* RequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewController.h; sourceTree = "<group>"; };
-		31154BB01B5FF71500912BF5 /* RequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewController.m; sourceTree = "<group>"; };
+		31154BAF1B5FF71500912BF5 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		31154BB01B5FF71500912BF5 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
 		31154BB21B6035B900912BF5 /* BuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
 		31154BB31B6035B900912BF5 /* BuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyViewController.m; sourceTree = "<group>"; };
-		31154BB61B60382200912BF5 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
-		31154BB71B60382200912BF5 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
-		31154BB91B603A8E00912BF5 /* CoreDataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataUtils.h; sourceTree = "<group>"; };
-		31154BBA1B603A8E00912BF5 /* CoreDataUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataUtils.m; sourceTree = "<group>"; };
+		31335DE81B83D6A600721EE0 /* ApplianceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplianceViewController.h; sourceTree = "<group>"; };
+		31335DE91B83D6A600721EE0 /* ApplianceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplianceViewController.m; sourceTree = "<group>"; };
+		31335DEB1B83D6BD00721EE0 /* ElectronicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElectronicViewController.h; sourceTree = "<group>"; };
+		31335DEC1B83D6BD00721EE0 /* ElectronicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElectronicViewController.m; sourceTree = "<group>"; };
+		31335DEE1B83D6CE00721EE0 /* RideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RideViewController.h; sourceTree = "<group>"; };
+		31335DEF1B83D6CE00721EE0 /* RideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RideViewController.m; sourceTree = "<group>"; };
+		31335DF11B83D6E000721EE0 /* VehicleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleViewController.h; sourceTree = "<group>"; };
+		31335DF21B83D6E000721EE0 /* VehicleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleViewController.m; sourceTree = "<group>"; };
+		31335DF41B83D6F700721EE0 /* OthersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OthersViewController.h; sourceTree = "<group>"; };
+		31335DF51B83D6F700721EE0 /* OthersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OthersViewController.m; sourceTree = "<group>"; };
+		318AAFD41B842487004F9C77 /* ResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetViewController.h; sourceTree = "<group>"; };
+		318AAFD51B842487004F9C77 /* ResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetViewController.m; sourceTree = "<group>"; };
+		31C78C981B7C0D7300495B15 /* FleaMarket-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FleaMarket-Bridging-Header.h"; sourceTree = "<group>"; };
+		31C78C991B7C0D7300495B15 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		31E511371B8105CF00BEA258 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		31E511391B8105E100BEA258 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		31E5113B1B8105EF00BEA258 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31E5113D1B8105F700BEA258 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		31E5113F1B8105FD00BEA258 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		31E511411B81060300BEA258 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31E511431B81060800BEA258 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		31E511451B81060E00BEA258 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		31E511471B81061400BEA258 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		31E511491B81061B00BEA258 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		31E5114B1B81062200BEA258 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31E511551B81066E00BEA258 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
+		31E511591B810EE200BEA258 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		31E5115A1B810EE200BEA258 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		31E5115C1B82D57100BEA258 /* ManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageViewController.h; sourceTree = "<group>"; };
+		31E5115D1B82D57100BEA258 /* ManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageViewController.m; sourceTree = "<group>"; };
 		31F4EBC81B6AB34300DB42C7 /* BuyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyDetailViewController.h; sourceTree = "<group>"; };
 		31F4EBC91B6AB34300DB42C7 /* BuyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyDetailViewController.m; sourceTree = "<group>"; };
 		31F4EBCB1B6AC5C000DB42C7 /* CreateItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateItemViewController.h; sourceTree = "<group>"; };
 		31F4EBCC1B6AC5C000DB42C7 /* CreateItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateItemViewController.m; sourceTree = "<group>"; };
 		31F4EBD01B6AF18800DB42C7 /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
 		31F4EBD11B6AF18800DB42C7 /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		5F7E8FFD2ED7B6E7B123A646 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E09CDB8852937D9CA5B10A1E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9EF4D804847C7DA485BFA7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E5114C1B81062200BEA258 /* UIKit.framework in Frameworks */,
+				A5043B7B1031312207D98115 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,9 +133,12 @@
 		31154B681B5FE92A00912BF5 = {
 			isa = PBXGroup;
 			children = (
+				31E511551B81066E00BEA258 /* GooglePlus.bundle */,
 				31154B731B5FE92A00912BF5 /* FleaMarket */,
 				31154B901B5FE92A00912BF5 /* FleaMarketTests */,
 				31154B721B5FE92A00912BF5 /* Products */,
+				A8FE93B74BA1550B90FC2A90 /* Pods */,
+				6E6D5AD560FAB0DA8B00C859 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,14 +155,13 @@
 			isa = PBXGroup;
 			children = (
 				31F4EBCF1B6AF14F00DB42C7 /* Custom Views */,
-				31154BB51B6037FC00912BF5 /* Core Data NSManagedObjects */,
+				31154BB51B6037FC00912BF5 /* CustomClass */,
 				31154B9D1B5FE97B00912BF5 /* ViewController */,
 				31154B781B5FE92A00912BF5 /* AppDelegate.h */,
 				31154B791B5FE92A00912BF5 /* AppDelegate.m */,
 				31154B811B5FE92A00912BF5 /* Main.storyboard */,
 				31154B841B5FE92A00912BF5 /* Images.xcassets */,
 				31154B861B5FE92A00912BF5 /* LaunchScreen.xib */,
-				31154B7B1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld */,
 				31154B741B5FE92A00912BF5 /* Supporting Files */,
 			);
 			path = FleaMarket;
@@ -157,27 +201,43 @@
 				31154BAB1B5FEEF600912BF5 /* SWRevealViewController.m */,
 				31154BA71B5FEC2300912BF5 /* SideBarViewController.h */,
 				31154BA81B5FEC2300912BF5 /* SideBarViewController.m */,
-				31154BAF1B5FF71500912BF5 /* RequestViewController.h */,
-				31154BB01B5FF71500912BF5 /* RequestViewController.m */,
+				31154BAF1B5FF71500912BF5 /* BookViewController.h */,
+				31154BB01B5FF71500912BF5 /* BookViewController.m */,
 				31154BB21B6035B900912BF5 /* BuyViewController.h */,
 				31154BB31B6035B900912BF5 /* BuyViewController.m */,
 				31F4EBC81B6AB34300DB42C7 /* BuyDetailViewController.h */,
 				31F4EBC91B6AB34300DB42C7 /* BuyDetailViewController.m */,
 				31F4EBCB1B6AC5C000DB42C7 /* CreateItemViewController.h */,
 				31F4EBCC1B6AC5C000DB42C7 /* CreateItemViewController.m */,
+				31E511591B810EE200BEA258 /* LoginViewController.h */,
+				31E5115A1B810EE200BEA258 /* LoginViewController.m */,
+				31E5115C1B82D57100BEA258 /* ManageViewController.h */,
+				31E5115D1B82D57100BEA258 /* ManageViewController.m */,
+				31335DE81B83D6A600721EE0 /* ApplianceViewController.h */,
+				31335DE91B83D6A600721EE0 /* ApplianceViewController.m */,
+				31335DEB1B83D6BD00721EE0 /* ElectronicViewController.h */,
+				31335DEC1B83D6BD00721EE0 /* ElectronicViewController.m */,
+				31335DEE1B83D6CE00721EE0 /* RideViewController.h */,
+				31335DEF1B83D6CE00721EE0 /* RideViewController.m */,
+				31335DF11B83D6E000721EE0 /* VehicleViewController.h */,
+				31335DF21B83D6E000721EE0 /* VehicleViewController.m */,
+				31335DF41B83D6F700721EE0 /* OthersViewController.h */,
+				31335DF51B83D6F700721EE0 /* OthersViewController.m */,
+				318AAFD41B842487004F9C77 /* ResetViewController.h */,
+				318AAFD51B842487004F9C77 /* ResetViewController.m */,
+				310386DD1B852FF200289DDA /* SearchViewController.h */,
+				310386DE1B852FF200289DDA /* SearchViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
 		};
-		31154BB51B6037FC00912BF5 /* Core Data NSManagedObjects */ = {
+		31154BB51B6037FC00912BF5 /* CustomClass */ = {
 			isa = PBXGroup;
 			children = (
-				31154BB91B603A8E00912BF5 /* CoreDataUtils.h */,
-				31154BBA1B603A8E00912BF5 /* CoreDataUtils.m */,
-				31154BB61B60382200912BF5 /* Item.h */,
-				31154BB71B60382200912BF5 /* Item.m */,
+				31C78C991B7C0D7300495B15 /* Item.swift */,
+				31C78C981B7C0D7300495B15 /* FleaMarket-Bridging-Header.h */,
 			);
-			name = "Core Data NSManagedObjects";
+			name = CustomClass;
 			sourceTree = "<group>";
 		};
 		31F4EBCF1B6AF14F00DB42C7 /* Custom Views */ = {
@@ -189,6 +249,34 @@
 			name = "Custom Views";
 			sourceTree = "<group>";
 		};
+		6E6D5AD560FAB0DA8B00C859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E5114B1B81062200BEA258 /* UIKit.framework */,
+				31E511491B81061B00BEA258 /* SystemConfiguration.framework */,
+				31E511471B81061400BEA258 /* Security.framework */,
+				31E511451B81060E00BEA258 /* MediaPlayer.framework */,
+				31E511431B81060800BEA258 /* CoreText.framework */,
+				31E511411B81060300BEA258 /* CoreGraphics.framework */,
+				31E5113F1B8105FD00BEA258 /* CoreMotion.framework */,
+				31E5113D1B8105F700BEA258 /* CoreLocation.framework */,
+				31E5113B1B8105EF00BEA258 /* Foundation.framework */,
+				31E511391B8105E100BEA258 /* AssetsLibrary.framework */,
+				31E511371B8105CF00BEA258 /* AddressBook.framework */,
+				E09CDB8852937D9CA5B10A1E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8FE93B74BA1550B90FC2A90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF9EF4D804847C7DA485BFA7 /* Pods.debug.xcconfig */,
+				5F7E8FFD2ED7B6E7B123A646 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31154B971B5FE92A00912BF5 /* Build configuration list for PBXNativeTarget "FleaMarket" */;
 			buildPhases = (
+				8A3F53BD5E99802862C727B2 /* Check Pods Manifest.lock */,
 				31154B6D1B5FE92A00912BF5 /* Sources */,
 				31154B6E1B5FE92A00912BF5 /* Frameworks */,
 				31154B6F1B5FE92A00912BF5 /* Resources */,
+				50756267524F287C1A8159A4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E511561B81066E00BEA258 /* GooglePlus.bundle in Resources */,
 				31154BAE1B5FF67B00912BF5 /* menu.png in Resources */,
 				31154B831B5FE92A00912BF5 /* Main.storyboard in Resources */,
 				31154B881B5FE92A00912BF5 /* LaunchScreen.xib in Resources */,
@@ -285,22 +376,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50756267524F287C1A8159A4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3F53BD5E99802862C727B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31154B6D1B5FE92A00912BF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C78C9A1B7C0D7300495B15 /* Item.swift in Sources */,
+				31335DF31B83D6E000721EE0 /* VehicleViewController.m in Sources */,
 				31F4EBD21B6AF18800DB42C7 /* ItemCell.m in Sources */,
-				31154BB81B60382200912BF5 /* Item.m in Sources */,
-				31154BBB1B603A8E00912BF5 /* CoreDataUtils.m in Sources */,
 				31154BAC1B5FEEF600912BF5 /* SWRevealViewController.m in Sources */,
-				31154B7D1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld in Sources */,
-				31154BB11B5FF71500912BF5 /* RequestViewController.m in Sources */,
+				31154BB11B5FF71500912BF5 /* BookViewController.m in Sources */,
+				31335DF01B83D6CE00721EE0 /* RideViewController.m in Sources */,
+				310386DF1B852FF200289DDA /* SearchViewController.m in Sources */,
 				31154B7A1B5FE92A00912BF5 /* AppDelegate.m in Sources */,
+				31335DF61B83D6F700721EE0 /* OthersViewController.m in Sources */,
 				31F4EBCA1B6AB34300DB42C7 /* BuyDetailViewController.m in Sources */,
 				31154BA91B5FEC2300912BF5 /* SideBarViewController.m in Sources */,
 				31154BB41B6035B900912BF5 /* BuyViewController.m in Sources */,
 				31F4EBCD1B6AC5C000DB42C7 /* CreateItemViewController.m in Sources */,
+				31E5115E1B82D57200BEA258 /* ManageViewController.m in Sources */,
+				31335DEA1B83D6A600721EE0 /* ApplianceViewController.m in Sources */,
+				318AAFD61B842487004F9C77 /* ResetViewController.m in Sources */,
+				31E5115B1B810EE200BEA258 /* LoginViewController.m in Sources */,
+				31335DED1B83D6BD00721EE0 /* ElectronicViewController.m in Sources */,
 				31154B771B5FE92A00912BF5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +513,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -418,6 +553,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -425,21 +564,40 @@
 		};
 		31154B981B5FE92A00912BF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9EF4D804847C7DA485BFA7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zhuangr/Desktop/google-plus-ios-sdk-1.7.1",
+					2,
+				);
 				INFOPLIST_FILE = FleaMarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FleaMarket/FleaMarket-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		31154B991B5FE92A00912BF5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7E8FFD2ED7B6E7B123A646 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zhuangr/Desktop/google-plus-ios-sdk-1.7.1",
+					2,
+				);
 				INFOPLIST_FILE = FleaMarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FleaMarket/FleaMarket-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -508,19 +666,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		31154B7B1B5FE92A00912BF5 /* FleaMarket.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				31154B7C1B5FE92A00912BF5 /* FleaMarket.xcdatamodel */,
-			);
-			currentVersion = 31154B7C1B5FE92A00912BF5 /* FleaMarket.xcdatamodel */;
-			path = FleaMarket.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 31154B691B5FE92A00912BF5 /* Project object */;
 }

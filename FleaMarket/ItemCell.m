@@ -7,7 +7,7 @@
 //
 
 #import "ItemCell.h"
-#import "Item.h"
+#import "FleaMarket-Swift.h"
 
 
 @implementation ItemCell
@@ -23,10 +23,16 @@
 //}
 
 - (void) _configureCellForItem:(Item*) item {
-    self.itemTitle.text = item.title;
-    self.owner.text = item.user;
-    self.date.text = @"2015/7/31";
 
+    
+    self.itemTitle.text = item.itemTitle;
+    self.owner.text = item.itemOwner;
+    //self.date.text = @"2015/7/31";
+    NSDateFormatter* outputFormatter = [[NSDateFormatter alloc] init];
+    [outputFormatter setDateFormat:@"MMM d, HH:mm"];
+    NSString* newDateString = [outputFormatter stringFromDate:item.itemDate];
+    self.date.text = newDateString;
+    
 }
 //- (void) _configureCellForItem:(Item *)item atIndexPath:(NSIndexPath *)indexPath {
 //       self.itemTitle.text = item.title;

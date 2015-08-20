@@ -7,15 +7,30 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Firebase/Firebase.h>
+
 @class Item;
+
+@protocol CreateItemViewControllerDelegate;
 
 @interface CreateItemViewController : UIViewController <UITextFieldDelegate>
 
 @property (nonatomic, strong) Item* item;
 @property (weak, nonatomic) IBOutlet UITextField *itemTitle;
 @property (weak, nonatomic) IBOutlet UITextView *itemDescription;
+
+//@property (nonatomic, weak) id<CreateItemViewControllerDelegate> delegate;
+@property (weak, nonatomic) Firebase* createFirebaseRef;
+
 - (IBAction)pressedAddPhotos:(id)sender;
 
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *pressedDone;
+- (IBAction)pressedDone:(id)sender;
 
 @end
+
+
+//@protocol CreateItemViewControllerDelegate <NSObject>
+//
+//- (void)createItemViewController;
+
+//@end
